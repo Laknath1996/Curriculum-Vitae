@@ -1,0 +1,340 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage{standalone}
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%\usepackage[utf8]{inputenc}
+
+%\usepackage{booktabs}
+\usepackage{fontawesome}
+\usepackage{marvosym} % For cool symbols.
+%\usepackage{hyperref}
+
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Laknath Ashwin} % Your first name
+\familyname{De Silva} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+% \title{Curriculum Vitae}
+\address{Clark Hall 317}{Baltimore MD 21218}
+% \mobile{(+91) 0000000, (+91) 0000000}
+
+
+%\fax{(000) 111 1113}
+ 
+%\social{github}{stefano-bragaglia}
+\email{ldesilv2@jhu.edu} 
+
+
+
+\homepage{https://laknath1996.github.io}{personal website}
+
+% social link \faGithub, \faSkype, \faLinkedin,\faStackExchange, and \faStackOverflow
+\extrainfo{
+    \faGithub\href{https://github.com/Laknath1996}{ Github} \quad
+    \faLinkedin\href{https://www.linkedin.com/in/ashwin-de-silva-6852b14b/}{ Linkedin} \quad
+    \faTwitter\href{https://twitter.com/AshwindeSilva1}{Twitter}
+    }
+
+
+%\social[linkedin][www.linkedin.com]{name}
+% The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+
+% \photo[70pt][0.3pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+%\quote{Not Attention, Patience is all we need.}
+
+%----------------------------------------------------------------------------------------
+
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvitem[.75em]{}{%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}%
+    }%
+}
+
+
+
+\usepackage{multibbl}
+\newcommand\Colorhref[3][orange]{\href{#2}{\small\color{#1}#3}}
+
+
+% \newcommand{\cvreference}[7]{%
+%     \textbf{#1}\newline% Name
+%     \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+%     \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+%     \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+%     \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+%     \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}%
+%     \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+% About Me
+I am a second-year PhD student in the Department of Biomedical Engineering at Johns Hopkins University. I am fortunate to be advised by Dr. Joshua Vogelstein, Dr. Pratik Chaudhari (UPenn), and Dr. Carey E. Priebe (JHU). My work primarily focuses on building deep learning and statistical machine learning methods for out-of-distribution (OOD) generalization and continually learning systems. Additionally, I have a keen interest in the applications of computer vision, geometric deep learning, signal processing, and biomedical data science.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2021--present}{Doctor of Philosophy, Biomedical Engineering}{Johns Hopkins University}{MD}{USA}
+{\textit{Highlighted Courses}: Statistical Pattern Recognition, Probability Theory, Statistical Theory, Neuro Data Design}
+\cvitem{CGPA :}{4.00/4.00}
+% \textit{Focus Areas}: Deep Learning (Theory and Methods), Statistical Machine Learning, Continual Learning, Out-of-Distribution Generalization \\
+
+\cventry{2016--2020 :}{Bachelor of Science, Biomedical Engineering}{University of Moratuwa}{Sri Lanka}{}{Class Rank : 1 out of 117, Faculty Rank : 1 out of 948, Included in Dean's Honors List in all 8 consecutive semesters. \\ \textit{Highlighted Courses}: Real Analysis, Calculus, Differential Equations, Linear Algebra, Signals and Systems, Machine Vision, Digital Signal Processing, Data Structures \& Algorithms}{}
+\cvitem{CGPA :}{4.09/4.20 (First Class Honors)}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+\cventry{2019-2021}{Junior Lecturer}{Dept. of Electronic and Telecommunication Engineering}{University of Moratuwa}{Sri Lanka}{}
+\cventry{2018}{Research Intern}{Center for Advanced Imaging}{University of Queensland}{Australia}{}
+\cventry{2017,2018}{Research Intern}{Florey Institute of Neuroscience \& Mental Health}{University of Melbourne}{Australia}{}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\subsection{In Conference Proceedings}
+\newbibliography{conference}
+\nocite{conference}{*}
+\bibliographystyle{conference}{plainyrrev}
+\bibliography{conference}{conference}
+{\large \textsc{Refereed Conference Publications}}
+
+\subsection{Workshop Papers}
+\newbibliography{workshop_papers}
+\nocite{workshop_papers}{*}
+\bibliographystyle{workshop_papers}{plainyrrev}
+\bibliography{workshop_papers}{workshop_papers}
+{\large \textsc{Refereed Conference Publications}}
+
+\subsection{Preprints}
+\newbibliography{preprints}
+\nocite{preprints}{*}
+\bibliographystyle{preprints}{plainyrrev}
+\bibliography{preprints}{preprints}
+{\large \textsc{Refereed Conference Publications}}
+
+\subsection{Theses}
+\newbibliography{theses}
+\nocite{theses}{*}
+\bibliographystyle{theses}{plainyrrev}
+\bibliography{theses}{theses}
+{\large \textsc{Refereed Conference Publications}}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Research Experience}
+% \subsection{Johns Hopkins University, MD, USA}
+% \subsection{University of Moratuwa, Sri Lanka}
+% \subsection{Florey Institute of Neuroscience and Mental Health, University of Melbourne, Australia}
+% \subsection{Center for Advanced Imaging, University of Queensland, Australia}
+
+% \section{Research Experience}
+% \subsection{Indian Institute of Technology, ABC}
+% \cventry{June,2019 -- present}{\textit{Identifying Protein-protein Interaction from Biomedical text}}{}{}{}
+% {Developing a deep multi-modal architecture for accurately predicting protein interaction information from biomedical text. 
+% }
+% \cvitem{Advisor :}{\textbf{Dr. abc xyz}, \textit{Associate Professor, Department of Computer Science \& Engineering}, IIT abc ({\Colorhref{https://www.personal_webpage.com/} {\textit{Personal Web-page}}})}
+
+% \cventry{July,2018 -- present}{\textit{Developing Deep Multi-modal Architecture for Biomedical Problems}}{}{}{}
+% {Analyzing different modalities of genes like gene expression profiles, protein 3D structure, underlying amino acid sequence using popular deep learning models to obtain deeper insight into the underlying biological system. 
+% }
+% \cvitem{Advisor :}{\textbf{Dr. abc xyz}, \textit{Associate Professor, Department of Computer Science \& Engineering}, IIT abc ({\Colorhref{https://www.personal_webpage.com/} {\textit{Personal Web-page}}})}
+
+% \subsection{Indian Institute of Technology, XYZ}
+% \cventry{January,2015 -- Dec,2015}{\textit{Design and Synthesis of Reversible Multi-dimentional Nearest-Neighbour(NN) Quantum Circuit}}{}{}{}{Proposed an approach for designing and physically implementing of the multi-dimensional quantum circuits maintaining nearest-neighbor complacency that use minimal number of SWAP gates.}
+% \cvitem{Advisor :}{\textbf{Dr. abc xyz}, \textit{Associate Professor, Department of Computer Science \& Engineering}, IIT abc ({\Colorhref{https://www.personal_webpage.com/} {\textit{Personal Web-page}}})}
+
+
+% \cventry{2012 -- 2013}{\textit{Text Document Clustering with Semantic Similarity through Wordnet}}{}{}{}{Improvement of the text document clustering task over conventional methods by introducing WORDNET and some better clustering algorithms.}
+% \cvitem{Advisor :}{\textbf{Dr. abc xyz}, \textit{Associate Professor, Department of Computer Science \& Engineering}, IIT abc ({\Colorhref{https://www.personal_webpage.com/} {\textit{Personal Web-page}}})}
+
+%----------------------------------------------------------------------------------------
+%	Fellowships \& Awards
+%----------------------------------------------------------------------------------------
+
+% \section{Fellowships \& Awards}
+
+% \cvitem{2016 --present}{\textit{\textbf{Visvesvaraya Fellowship}} of Ministry of Electronics and Information Technology (MeitY), Government of India, as a PhD research scholar in Indian Institute of Technology Patna.}
+% \cvitem{2019}{Receipt of \textit{\textbf{Visvesvaraya Travel Grant}} to attend a international conference \textbf{\textit{IEEE Congress on Evolutionary Computation, 2019}} in Wellington, New Zealand.}
+% \cvitem{2018}{Recipient of \textit{\textbf{SciGenome Research Foundation (SGRF) GYAN Scholarship}} to participate \textbf{\textit{Nextgen Genomics, Biology, Bioinformatics and Technologies-2018}} meeting at Jaipur India from $30^{th}$ September to $2^{nd}$ October 2018. }
+% \cvitem{2015}{Awarded under \textit{\textbf{Students Reward Programme}} at the Annual General Meeting of \textbf{Global Alumni Association of Bengal Engineering and Science University(GAABESU).}}
+
+%----------------------------------------------------------------------------------------
+%	Academic achievements
+%----------------------------------------------------------------------------------------
+
+\section{Academic Achievements \& Recognitions }
+
+\cvitem{2021}{\textbf{2nd Runners-up of the IEEE Video and Image Processing Cup} awarded at the International Conference on Image Processing (ICIP) 2021, Anchorage, Alaska, USA}
+\cvitem{2020}{\textbf{Prof. Pathuwathawithana Memorial Prize} for attaining the \emph{highest} GPA at the Faculty of Engineering, University of Moratuwa, Sri Lanka}
+\cvitem{2020}{\textbf{Gold Medal sponsored by Technomedics International Pvt Ltd} for the \emph{highest} overall academic performance in the Biomedical Engineering Stream (University of Moratuwa)}
+\cvitem{2020}{\textbf{National Finalists at the Migara Ranatunga Awards} awarded by Institution of Engineers, Sri Lanka (IESL) for the \emph{best} performance in the research internship}
+\cvitem{2019}{\textbf{World Finalists at the IEEE ComSoc Student Competition} ranked among \emph{the top 15 in the world}, Received an Honorable Mention}
+\cvitem{2019}{\textbf{Merit Award at SLAAS Awards} awarded by Sri Lanka Association for the Advancement of Science for the \emph{best undergraduate project of Sri Lanka}}
+\cvitem{2019}{\textbf{National Finalists at the Sri Lankan IoT Challenge} ranked among \emph{the top 10 in the country}, Received an Honorable Mention}
+\cvitem{2019}{\textbf{Runners-Up at the the National Inter-University Statistics Quiz Competition} Organized by University of Sri Jayawardenapura, Sri Lanka}
+\cvitem{2016}{\textbf{Dialog Merit Scholarship for Engineering Undergraduates} awarded by Dialog Axiata PLC for the students who excelled at the university entrance examinations}
+\cvitem{2016}{\textbf{Mahapola Merit Scholarship for Engineering Undergraduates} awarded by the Government of Sri Lanka for the students who excelled at the university entrance examinations}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING SECTION
+%----------------------------------------------------------------------------------------
+\section{Selected Teaching Experience}
+\subsection{Teaching Assistant}
+\cventry{2021 Fall:}{EN 1060: Signals and Systems}{}{UoM}{Sri Lanka}{}
+\cventry{2020 Fall:}{EN 2030: Laboratory Practice II}{}{UoM}{Sri Lanka}{}
+\cventry{2020 Spring:}{EN 3030: Circuits and Systems Design}{}{UoM}{Sri Lanka}{}
+\cventry{2020 Spring:}{BM 4111: Medical Electronics and Instrumentation}{}{UoM}{Sri Lanka}{}
+\cventry{2020 Fall:}{BM 2101: Analysis of Physiological Systems}{}{UoM}{Sri Lanka}{}
+\cventry{2020 Fall:}{BM 2011: Human Anatomy and Physiology}{}{UoM}{Sri Lanka}{}
+\cventry{2019 Fall:}{EN 1093: Laboratory Practice I}{}{UoM}{Sri Lanka}{}
+\cventry{2018 Spring:}{DE 2410: Astronomy and Cosmology}{}{UoM}{Sri Lanka}{}
+
+\subsection{Visiting Lecturer}
+\cventry{2020 Spring:}{Workshop on MATLAB for signal/image processing, communication systems, and electronics}{}{Institute of Engineering Technology}{Sri Lanka}{}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Technical skills}
+
+\cvitem{}{\textit{Programming Languages}: Python, MATLAB, C/C++, Verilog HDL, \LaTeX}
+\cvitem{}{\textit{Frameworks}: PyTorch, PyG (PyTorch Geometric), Tensoflow, Keras, scikit-learn, ITK/VTK}
+\cvitem{}{\textit{Software}: Quartus, Multisim, AutoCAD, Altium, Solidworks}
+\cvitem{}{\textit{Hardware}: STM32 Family, Atmel AVR, Altera DE2, Raspberry Pi, Arduino}
+% \cvitem{Web Technologies}{HTML 5, PHP, JSP, Javascript}
+% \cvitem{Database}{SQL, MySQL, Apache, Neo4j}
+
+%----------------------------------------------------------------------------------------
+%	SELECTED TALKS
+%----------------------------------------------------------------------------------------
+
+\section{Selected Talks}
+
+\cvitem{Oct. 2022}{\textit{The Value of Out-of-distribution Data}, ECCV 2022 workshop on Out-of-distribution Generalization in Computer Vision, Tel Aviv, Israel}
+\cvitem{Sep. 2022}{Critique on \textit{Invertible Neural Networks for Graph Predictions}, Theorinet Retreat, Simons Foundation, NY, USA}
+\cvitem{Jun. 2021}{\textit{A Joint Convolutional and Spatial Quad-Directional LSTM Network for Phase Unwrapping}, 46th International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Toronto, Canada}
+\cvitem{Jun. 2020}{\textit{Real-time hand gesture recognition using temporal muscle activation maps of
+multi-channel sEMG signals}, 45th International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Barcelona, Spain}
+
+%----------------------------------------------------------------------------------------
+%	SELECTED POSTER PRESENTATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Selected Poster Presentations}
+
+\cvitem{Apr. 2022}{\textit{Kernel Density Networks}, From Neuroscience to Artificially Intelligent Systems (NAISys), Cold Spring Harbor Laboratory, NY, USA}
+\cvitem{Jun. 2021}{\textit{A Joint Convolutional and Spatial Quad-Directional LSTM Network for Phase Unwrapping}, 46th International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Toronto, Canada}
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Professional Activities}
+\subsection{Organizing}
+\cvitem{2021}{\textit{IEEE EMBS International Student Conference}, Moratuwa, Sri Lanka}
+\cvitem{2018}{\textit{Workshop on Brain Computer Interfaces}, MerCon 2018, Moratuwa, Sri Lanka}
+\cvitem{2017}{\textit{TechMedImpact Forum}, Sri Lanka}
+
+\subsection{Reviewing (Conferences)}
+\cvitem{2021}{\textit{IEEE EMBS International Student Conference}, Moratuwa, Sri Lanka}
+\cvitem{2021}{\textit{MerCon 2021}, Moratuwa, Sri Lanka}
+
+%----------------------------------------------------------------------------------------
+%	Position of Responsibility SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Position of Responsibility}
+% \cventry{2016-2020}{Executive member of IEEE Student Branch}{}{IIT ABC}{}{}
+% \cventry{April 1-5, 2019}{Organizer, GIAN Workshop on subjects}{}{IIT ABC}{}{}
+
+
+% \section{Referees}
+
+
+% \begin{tabular}{lr}
+% % Referee 1
+% \begin{minipage}[t]{3in}
+% \textbf{Dr. XXXXX XXXXX}\\
+% \textit{Associate Professor, Department of} \\
+% \textit{Computer Science \& Engineering}\\
+% Institute name\\
+% \Letter\ \href{mailto:abc@gmail.com}{abc@gmail.com}
+% \end{minipage}
+% &
+% % Referee 2
+% \begin{minipage}[t]{3in}
+% \textbf{Dr. XXXXX XXXXX}\\
+% \textit{Associate Professor, Department of} \\
+% \textit{Computer Science \& Engineering}\\
+% Institute name\\
+% \Telefon\ +(601) 877-6236\\
+% \Letter\ \href{mailto:abc@gmail.com}{abc@gmail.com}
+% \end{minipage}
+% \\
+% \\ % Additional newline for spacing.
+% % Referee 3
+% \begin{minipage}[t]{3in}
+% \textbf{Dr. XXXXX XXXXX}\\
+% \textit{Associate Professor, Department of} \\
+% \textit{Computer Science \& Engineering}\\
+% Institute name\\
+% \Telefon\ +(601) 877-6236\\
+% \Letter\ \href{mailto:abc@gmail.com}{abc@gmail.com}
+% \end{minipage}
+% &
+% \\
+% \end{tabular}
+
+
+\end{document}
