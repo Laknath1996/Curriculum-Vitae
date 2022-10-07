@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.12)  7 OCT 2022 05:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.12)  7 OCT 2022 09:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main
 (./main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (./moderncv.cls
@@ -472,8 +472,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 10
 7.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
@@ -496,6 +495,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
 LaTeX Font Info:    ... okay on input line 107.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
 07.
+
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -591,13 +591,18 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 107.
 LaTeX Info: Redefining \pageref on input line 107.
 LaTeX Info: Redefining \nameref on input line 107.
+ (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
+\pagenumberwidth=\skip74
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 107.
 \makecvtitledetailsbox=\box57
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
 09.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
@@ -652,8 +657,8 @@ LaTeX Font Warning: Font shape `U/fontawesomethree/m/sl' undefined
 (Font)              using `U/fontawesomethree/m/n' instead on input line 109.
 
 \makecvtitlepicturebox=\box58
-\makecvtitledetailswidth=\skip74
-\makecvtitlepicturewidth=\skip75
+\makecvtitledetailswidth=\skip75
+\makecvtitlepicturewidth=\skip76
 
 Underfull \hbox (badness 10000) in paragraph at lines 109--109
 
@@ -663,57 +668,48 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 120.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 120.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 120.
 \conference@auxfile=\write4
 \openout4 = `conference.aux'.
 
 Writing auxiliary file conference.aux 
-No file conference.bbl.
+(./conference.bbl
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 8.
+)
 \workshop_papers@auxfile=\write5
 \openout5 = `workshop_papers.aux'.
 
+
 Writing auxiliary file workshop_papers.aux 
-No file workshop_papers.bbl.
+(./workshop_papers.bbl)
 \preprints@auxfile=\write6
 \openout6 = `preprints.aux'.
 
+
 Writing auxiliary file preprints.aux 
-No file preprints.bbl.
+(./preprints.bbl [1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 \theses@auxfile=\write7
 \openout7 = `theses.aux'.
 
-Writing auxiliary file theses.aux 
-No file theses.bbl.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 218.
-[1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] (./main.aux)
+Writing auxiliary file theses.aux 
+(./theses.bbl) [2] [3] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  F12612E251B07564E16BEA69D29C584D;2422.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: F12612E251B07564E16BEA69D29C584D;2422.
  ) 
 Here is how much of TeX's memory you used:
- 16271 strings out of 478268
- 269505 string characters out of 5846347
- 690011 words of memory out of 5000000
- 34069 multiletter control sequences out of 15000+600000
- 532187 words of font info for 110 fonts, out of 8000000 for 9000
+ 16327 strings out of 478268
+ 270189 string characters out of 5846347
+ 691320 words of memory out of 5000000
+ 34087 multiletter control sequences out of 15000+600000
+ 533504 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,12n,92p,1001b,368s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 95i,13n,92p,997b,366s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/
 local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</
@@ -727,10 +723,10 @@ blic/lm/lmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/
 lmsso10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmsso9.pf
 b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
 
-Output written on main.pdf (3 pages, 211992 bytes).
+Output written on main.pdf (3 pages, 217998 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 160 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
  21 named destinations out of 1000 (max. 500000)
- 34817 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 34953 words of extra memory for PDF output out of 35830 (max. 10000000)
 

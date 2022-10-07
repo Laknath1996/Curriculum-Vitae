@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: theses.aux
+The style file: plainyrrev.bst
+Database file #1: theses.bib
+Warning--empty booktitle in DeSilva2020Des
+You've used 1 entry,
+            2156 wiz_defined-function locations,
+            511 strings with 4336 characters,
+and the built_in function-call counts, 422 in all, are:
+= -- 32
+> -- 36
+< -- 0
++ -- 14
+- -- 13
+* -- 30
+:= -- 84
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 1
+duplicate$ -- 13
+empty$ -- 26
+format.name$ -- 13
+if$ -- 79
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 6
+num.names$ -- 3
+pop$ -- 15
+preamble$ -- 0
+purify$ -- 8
+quote$ -- 0
+skip$ -- 7
+stack$ -- 0
+substring$ -- 5
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 4
+warning$ -- 1
+while$ -- 3
+width$ -- 2
+write$ -- 11
+(There was 1 warning)
